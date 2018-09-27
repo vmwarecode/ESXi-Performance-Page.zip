@@ -1,0 +1,1 @@
+{"34b82c9d-ddcc-42ac-93c2-6e92984a0d9f":{"resourceKinds":[{"resourceKindKey":"VirtualMachine","adapterKindKey":"VMWARE"}],"modificationTime":0,"name":"Ops. Guest OS RAM Used (%)","formula":"(${this, metric=guest|mem.needed_latest}/${this, metric=guest|mem.physUsable_latest})*100"}}
